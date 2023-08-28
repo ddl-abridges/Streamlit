@@ -6,3 +6,10 @@ serverPort = 8888
 port = 8888
 enableCORS = false
 enableXsrfProtection = false
+
+[theme]
+primaryColor = "AE00AD"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#ededed"
+textColor = "#242424"
+font = "monospace"
