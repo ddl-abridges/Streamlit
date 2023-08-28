@@ -1,8 +1,0 @@
-[browser]
-gatherUsageStats = true
-serverAddress = "0.0.0.0"
-serverPort = 8888
-[server]
-port = 8888
-enableCORS = false
-enableXsrfProtection = false
