@@ -9,7 +9,7 @@ enableXsrfProtection = false
 
 [theme]
 primaryColor = "AE00AD"
-backgroundColor = "#FFFFFF"
+backgroundColor = "#FF3466"
 secondaryBackgroundColor = "#ededed"
 textColor = "#242424"
 font = "monospace"
