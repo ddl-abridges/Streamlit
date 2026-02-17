@@ -1,3 +1,5 @@
+pip install streamlit
+
 mkdir ~/.streamlit
 echo "[browser]" > ~/.streamlit/config.toml
 echo "gatherUsageStats = true" >> ~/.streamlit/config.toml
