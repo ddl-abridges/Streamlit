@@ -47,9 +47,10 @@ def load_data():
 
 # FUNCTION FOR AIRPORT MAPS
 def map(data, lat, lon, zoom):
-    st.write(
+    st.pydeck_chart(
         pdk.Deck(
-            map_style="mapbox://styles/mapbox/light-v9",
+            # Using CartoDB Light (no token required) instead of Mapbox
+            map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
             initial_view_state={
                 "latitude": lat,
                 "longitude": lon,
@@ -162,5 +163,5 @@ st.altair_chart(
         tooltip=["minute", "pickups"],
     )
     .configure_mark(opacity=0.2, color="red"),
-    use_container_width=True,
+    width='stretch'
 )
